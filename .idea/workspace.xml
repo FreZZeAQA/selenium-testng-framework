@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67ad4fa5-14de-41d6-b062-5c7da51b973c" name="Changes" comment="Test Class was created and necessary things to make test case by Data Provider">
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Ojtbyfb7pDFNUXieAjsdTz4utu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Y.pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\38068\IdeaProjects\selenium-testng-framework\src\test\java\example\example\tests" />
+      <recent name="C:\Users\38068\IdeaProjects\selenium-testng-framework\src\test\java\example\example\pages" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="example.example.pages" />
+      <recent name="example.example.data" />
+      <recent name="businessObjects" />
+      <recent name="data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/38068/IdeaProjects/selenium-testng-framework/src/test/resources/suites/testng.xml">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="selenium-testng-framework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/38068/IdeaProjects/selenium-testng-framework/src/test/resources/suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-testng-framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogTests.verifyBurgerOptions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-testng-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CatalogTests" />
+      <option name="METHOD_NAME" value="verifyBurgerOptions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogTests.verifyRemoveButtons" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-testng-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Y.tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CatalogTests" />
+      <option name="METHOD_NAME" value="verifyRemoveButtons" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.verify" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-testng-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Tests" />
+      <option name="METHOD_NAME" value="verify" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/38068/IdeaProjects/selenium-testng-framework/src/test/resources/suites/testng.xml" />
+        <item itemvalue="TestNG.CatalogTests.verifyBurgerOptions" />
+        <item itemvalue="TestNG.CatalogTests.verifyRemoveButtons" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.Tests.verify" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67ad4fa5-14de-41d6-b062-5c7da51b973c" name="Changes" comment="" />
+      <created>1682085895869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682085895869</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Test Class was created and necessary things to make test case by Data Provider">
+      <created>1692447374327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692447374327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Class was created and necessary things to make test case by Data Provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Class was created and necessary things to make test case by Data Provider" />
+  </component>
+</project>
