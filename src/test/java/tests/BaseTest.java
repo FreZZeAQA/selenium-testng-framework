@@ -31,13 +31,14 @@ public class BaseTest{
 		catalogPage = getInstance(CatalogPage.class);
 		burgerMenu = getInstance(BurgerMenu.class);
 		driver.get(SWAG_LABS_URL);
+		driver.manage().window().maximize();
 	}
 
-//	@AfterMethod
-//	public void wrapUp() {
-//		if (getDriver() != null) {
-//			getDriver().close();
-//			getDriver().quit();
-//		}
-//	}
+	@AfterMethod
+	public void wrapUp() {
+		if (getDriver() != null) {
+			getDriver().close();
+			getDriver().quit();
+		}
+	}
 }
