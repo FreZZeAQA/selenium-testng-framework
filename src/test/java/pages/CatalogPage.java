@@ -57,4 +57,7 @@ public class CatalogPage extends BasePage {
         return removeButtons.size() > 0;
     }
 
+    public boolean isProductDropDownListExists(){
+        return productDropDownList.isDisplayed();
+    }
 }

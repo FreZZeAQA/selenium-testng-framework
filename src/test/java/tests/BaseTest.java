@@ -2,6 +2,7 @@ package tests;
 
 import businessObjects.LoginActions;
 import pages.BurgerMenu;
+import pages.CartPage;
 import pages.CatalogPage;
 import pages.GeneralPage;
 import factories.BrowsersFactory;
@@ -20,6 +21,7 @@ public class BaseTest{
 	protected LoginActions loginPage ;
 	protected CatalogPage catalogPage;
 	protected BurgerMenu burgerMenu;
+	protected CartPage cartPage;
 
 	@BeforeMethod
 	@Parameters(value = {"browser"})
@@ -30,9 +32,11 @@ public class BaseTest{
 		loginPage = getInstance(LoginActions.class);
 		catalogPage = getInstance(CatalogPage.class);
 		burgerMenu = getInstance(BurgerMenu.class);
+		cartPage = getInstance(CartPage.class);
 		driver.get(SWAG_LABS_URL);
 		driver.manage().window().maximize();
 	}
+
 
 	@AfterMethod
 	public void wrapUp() {

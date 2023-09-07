@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<test thread-count="5" name="Test" parallel="classes">
+<suite name="EdgeSuite">
+	<test thread-count="1" name="Test" parallel="classes">
 		<parameter name="browser" value="EDGE"/>
 		<classes>
-			<class name="tests.BurgerMenuTests"/>
-			<class name="tests.CatalogTests"/>
-			<class name="tests.LoginTests"/>
+			<class name="tests.CartPageTests"/>
+
 		</classes>
-	</test> 
+	</test>
 </suite>
+
+
+

@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ad4fa5-14de-41d6-b062-5c7da51b973c" name="Changes" comment="Test Class was created and necessary things to make test case by Data Provider">
+    <list default="true" id="67ad4fa5-14de-41d6-b062-5c7da51b973c" name="Changes" comment="WebSite window was Maximized, and include annotations @AfterMethod in order to close window after each test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-testng-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-testng-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CatalogPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CatalogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CatalogTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +23,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,6 +77,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CartPageTests.verifyContinueShoppingButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-testng-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CartPageTests" />
+      <option name="METHOD_NAME" value="verifyContinueShoppingButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CatalogTests.verifyBurgerOptions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-testng-framework" />
       <extension name="coverage">
@@ -107,31 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.verify" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-testng-framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Tests" />
-      <option name="METHOD_NAME" value="verify" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/38068/IdeaProjects/selenium-testng-framework/src/test/resources/suites/testng.xml" />
+        <item itemvalue="TestNG.CartPageTests.verifyContinueShoppingButton" />
         <item itemvalue="TestNG.CatalogTests.verifyBurgerOptions" />
         <item itemvalue="TestNG.CatalogTests.verifyRemoveButtons" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.Tests.verify" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692447374327</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="WebSite window was Maximized, and include annotations @AfterMethod in order to close window after each test">
+      <created>1692455419557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692455419557</updated>
+    </task>
+    <task id="LOCAL-00003" summary="WebSite window was Maximized, and include annotations @AfterMethod in order to close window after each test">
+      <created>1692455466340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692455466340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Class was created and necessary things to make test case by Data Provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Class was created and necessary things to make test case by Data Provider" />
+    <MESSAGE value="WebSite window was Maximized, and include annotations @AfterMethod in order to close window after each test" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebSite window was Maximized, and include annotations @AfterMethod in order to close window after each test" />
   </component>
 </project>

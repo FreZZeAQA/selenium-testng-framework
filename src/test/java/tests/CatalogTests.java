@@ -1,6 +1,5 @@
 package tests;
 
-import data.AddToCartButtons;
 import pages.CatalogFilterOptions;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
